@@ -1,0 +1,28 @@
+{
+  "name": "react-contexter",
+  "version": "0.1.0",
+  "description": "Higher order components with parent/child context",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "react",
+    "context",
+    "hoc",
+    "component",
+    "helper"
+  ],
+  "author": "Gal Schlezinger",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "jsdom": "^6.5.1",
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
+  }
+}
