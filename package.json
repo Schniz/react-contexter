@@ -25,5 +25,20 @@
     "mocha": "^2.3.3",
     "react-dom": "^0.14.0",
     "sinon": "^1.17.1"
-  }
+  },
+  "dependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "react": "^0.14.0",
+    "jsdom": "^6.5.1",
+    "react-dom": "^0.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Schniz/react-contexter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Schniz/react-contexter/issues"
+  },
+  "homepage": "https://github.com/Schniz/react-contexter#readme"
 }
