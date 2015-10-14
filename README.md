@@ -1,6 +1,8 @@
 React contexter
 ===============
 
+[![Build Status](https://travis-ci.org/Schniz/react-contexter.svg?branch=master)](https://travis-ci.org/Schniz/react-contexter)
+
 Use [context](https://facebook.github.io/react/docs/context.html) with [Higher Order Components](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750) for better testing and reuse.
 
 The logic is simple: put the `context` you want as `props`.
