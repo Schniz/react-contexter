@@ -19,6 +19,11 @@ var ContextedComponent = contexter({
 
 And that's it. `MyComponent` can be tester with your favorite testing tools, just inject the right `prop` and you're ready to go.
 
+Install
+-------
+
+just `npm install --save react-contexter` as you normally do.
+
 API
 ---
 

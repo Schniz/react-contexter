@@ -7,8 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --reporter spec",
-    "build": "babel --stage 0 lib/ -d dist/"
+    "test": "npm run build && mocha --reporter spec",
+    "build": "babel --stage 0 lib/ -d dist/",
+    "prepublish": "npm run test"
   },
   "keywords": [
     "react",
