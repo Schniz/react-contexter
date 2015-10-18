@@ -43,6 +43,7 @@ var ContextedComponentTwo = contexter(ComponentTwo);
 ```
 
 this can help you creating custom utility functions for your applications.
+you can expose contexters in their own module for reusing them.
 
 ### `contexter(contextTypes, Component)`
 creates a contexter that injects `contextTypes` and executes it with `Component`.
